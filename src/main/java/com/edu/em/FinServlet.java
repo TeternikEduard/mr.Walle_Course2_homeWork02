@@ -59,6 +59,8 @@ public class FinServlet extends HttpServlet {
 
             writer.write("<tr><td colspan='3'>Average price: " + formattedAveragePrice + "</td></tr>");
 
+            writer.write("<tr><td colspan='3'>Total count: " + totalCountItems + "</td></tr>");
+
             writer.write("<tr><td colspan='3'>Total sum of all costs: " + formattedTotalCostSum + "</td></tr>");
         } else {
             writer.write("<tr><td colspan='3'>No data to display</td></tr>");
